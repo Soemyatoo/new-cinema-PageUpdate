@@ -1,0 +1,123 @@
+/*Header*/
+.navbar{
+    display: flex;
+      position: fixed;
+      z-index: 100;
+      border-bottom: 1px solid lightgray;
+      justify-content: space-between;
+      background-color: #f9f4f4;
+      top: 0;
+      left: 0;
+      right: 0;
+      
+  }
+  .adjust{
+    color: #898888;  
+     text-decoration: none;
+     margin: 0px 20px;
+  }
+  .login-btn{
+      margin-right: 30px;
+      border-radius: 0px;
+      padding: 6px;
+      font-size: 14px;
+      border: 2px solid #EDEDED;
+  
+  }
+  .film-flexIcon{
+    margin-left: 44px;
+  }
+  .adjust:hover{
+    opacity: 0.7;
+    border-bottom:3px solid black ;
+    border-radius: 2.4px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  /* body */
+  .second-cointer{
+    background-color: white;
+    margin-top: 107px;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 5px 24px -6px rgba(0.15, 0.15, 0.15);
+  }
+
+  .text{
+    margin-top: 100px;
+    margin-left: 73px;
+    
+    padding: 20px;
+  }
+  .text2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .btn2 {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 22%;
+  }
+
+  .box-cointer{
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+  .email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 9px 15px;
+    border: none;
+    background-color:#f9f4f4 ;
+    box-shadow: 1px 1px 5px -1px rgba(0.15, 0.15, 0.15);
+    outline: none;
+  }
+
+  .password{
+          margin-bottom: 20px;
+        
+          border-radius: 10px;
+          padding:  9px 15px;
+          border: none;
+          background-color:#f9f4f4 ;
+          outline: none;
+          box-shadow: 1px 1px 5px -1px rgba(0.15, 0.15, 0.15);
+          
+  
+         
+  }
+  .name{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 9px 15px;
+    outline: none;
+    border: none;
+    background-color:#f9f4f4 ;
+    box-shadow: 1px 1px 5px -1px rgba(0.15, 0.15, 0.15);
+  }
+ 

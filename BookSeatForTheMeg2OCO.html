@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="BookSeat.css">
+
+</head>
+
+
+<body>
+   
+    <!--navBar-->
+    <nav class="navbar bg-body-tertiar ">
+   
+      <div class="logo-container">
+      <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Image/photo_2025-01-19_21-02-24_processed.jpg" alt="Bootstrap" width="90" height="90" class="film-flexIcon">
+      </a>
+      </div>
+    </div>
+    <div class="tab-container">
+      <div>
+          <a href="homePage.html" class="adjust">Home</a>
+          <a href="movies.html" class="adjust">Movies</a>
+          <a href="cinemaPage.html" class="adjust">Cinemas</a>
+          <a href="contant.html" class="adjust">Contact Us</a>
+          <button type="button" class="btn btn-outline-primary login-btn"><a href="login.html">Create account</a></button> 
+      </div>
+      
+    </div> 
+  
+  </nav>
+
+    <!--BodyCard-->
+
+    <div class="movieCard">
+      <div class="right">
+         <img src="Image/MovieInfo-the meg2.jpg" class="movieCardImage">
+      </div>
+      <div class="left">
+        <div class="movieName">THE MEG 2</div>
+         <div class="btn-info-Container">
+          <button type="button" class="btn btn-info">1hr 56m</button>
+          <button type="button" class="btn btn-info">Thriller/Crime</button>
+         </div>
+        <div class="cinemaTag">
+          FILM FLEX [Ocean Center Ottarathiri]
+        </div>
+      </div>
+    </div>
+
+    <!--MovieOfBook-->
+     
+    <div class="pickUpDate">
+      <div>Pick the date you want to checkout for ticket</div>
+    </div>
+       
+
+    
+    <div class="button-group">
+      <button class="date-btn" onclick="selectButton(this)">24 Fri</button>
+      <button class="date-btn" onclick="selectButton(this)">25 Sat</button>
+      <button class="date-btn" onclick="selectButton(this)">26 Sun</button>
+    </div>
+
+      <div class="showTimeContainer">Please select the showtime</div>
+
+      <div class="showTimeBtContainer">
+        <button class="btn-primary date-btn" onclick="selectButton(this)">13:30 <span>2D</span></button>
+        <button type="button" class="btn-primary date-btn"  onclick="selectButton(this)">15:30 <span>2D</span></button>
+        <button type="button" class="btn-primary date-btn"  onclick="selectButton(this)">09:20 <span>2D</span></button>
+      </div>
+
+      <div class="seatText">Select the seat which you want to book or buy</div>
+
+
+<div class="container text-center mgBtn">
+        <div class="row align-items-center">
+          <div class="seatChoose">
+            <div>
+              <button type="button" class="btn btn-outline-primary seatbtn"></button>
+              <div>6000KS</div>
+            </div>
+            
+            <div>
+              
+              <button type="button" class="btn btn-outline-secondary seatbtn"></button>
+              <div>8000KS</div>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-info seatbtn"></button>
+              <div>12000KS</div>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-success seatbtn"></button>
+              <div>17000KS</div>
+            </div>
+          </div>
+          <div class="seatPrice">
+        
+        
+        
+        
+      </div>
+        </div>
+      </div>
+
+
+          <div class="colContainer">
+            <div class="firstCol">
+               <div class="firstColContainer">
+                <button type="button" class="btn btn-outline-primary seatbtnTwo">A1</button>
+                <button type="button" class="btn btn-outline-primary seatbtnTwo">A2</button>
+                <button type="button" class="btn btn-outline-primary seatbtnTwo">B1</button>
+                <button type="button" class="btn btn-outline-primary seatbtnTwo">B2</button>
+                <button type="button" class="btn btn-outline-primary seatbtnTwo">C1</button>
+                <button type="button" class="btn btn-outline-primary seatbtnTwo">C2</button>
+                <button type="button" class="btn btn-outline-secondary seatbtnTwo">D1</button>
+                <button type="button" class="btn btn-outline-secondary seatbtnTwo">D2</button>
+                <button type="button" class="btn btn-outline-secondary seatbtnTwo" >E1</button>
+                <button type="button" class="btn btn-outline-secondary seatbtnTwo" >E2</button>
+                <button type="button" class="btn btn-outline-secondary seatbtnTwo" >F1</button>
+                <button type="button" class="btn btn-outline-secondary seatbtnTwo" >F2</button>
+                <button type="button" class="btn btn-outline-info seatbtnTwo">G1</button>
+                <button type="button" class="btn btn-outline-info seatbtnTwo" >G2</button>
+                <button type="button" class="btn btn-outline-info seatbtnTwo">H1</button>
+                <button type="button" class="btn btn-outline-info seatbtnTwo" >H2</button>
+                <button type="button" class="btn btn-outline-info seatbtnTwo" >I1</button>
+                <button type="button" class="btn btn-outline-info seatbtnTwo" >I2</button>
+                <button type="button" class="btn btn-outline-success  vvip"  >J1</button>
+               </div>
+            </div>
+            <div class="secondCol">
+                <div class="secondColContainer">
+                     <div class="innerBtn">
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">A3</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">A4</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">B3</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">B4</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">C3</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">C4</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">D3</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">D4</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">E3</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">E4</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">F3</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">F4</button>
+
+
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">G3</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">G4</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">H3</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">H4</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">I3</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">I4</button>
+                      <button type="button" class="btn btn-outline-success vvip">J2</button>
+                     </div>
+
+                     <div class="innerBtnTwo">
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">A5</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">A6</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">B5</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">B6</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">C5</button>
+                      <button type="button" class="btn btn-outline-primary seatbtnTwo">C6</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">D5</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">D6</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">E5</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">E6</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">F5</button>
+                      <button type="button" class="btn btn-outline-secondary seatbtnTwo">F6</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">G5</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">G6</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">H5</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">H6</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">I5</button>
+                      <button type="button" class="btn btn-outline-info seatbtnTwo">I6</button>
+                      <button type="button" class="btn btn-outline-success vvip">J3</button>
+                     </div>
+
+                     <div class="innerBtnThree">
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">A7</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">A8</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">B7</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">B8</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">C7</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">C8</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">D7</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">D8</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">E7</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">E8</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">F7</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">F8</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">G7</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">G8</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">H7</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">H8</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">I7</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">I8</button>
+                        <button type="button" class="btn btn-outline-success vvip">J4</button>
+                       </div>
+                     <div class="innerBtnFour">
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">A9</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">A10</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">B9</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">B10</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">C9</button>
+                        <button type="button" class="btn btn-outline-primary seatbtnTwo">C10</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">D9</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">D10</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">E9</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">E10</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">F9</button>
+                        <button type="button" class="btn btn-outline-secondary seatbtnTwo">F10</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">G9</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">G10</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">H9</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">H10</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">I9</button>
+                        <button type="button" class="btn btn-outline-info seatbtnTwo">I10</button>
+                        <button type="button" class="btn btn-outline-success vvip">J5</button>
+                     </div>
+
+                 </div>
+                     
+
+
+                   
+            </div>
+            <div class="thirdCol">
+                <div class="secondColContainer">
+                    
+
+                    <div class="innerBtnTwo">
+                     <button type="button" class="btn btn-outline-primary seatbtnTwo">A11</button>
+                     <button type="button" class="btn btn-outline-primary seatbtnTwo">A12</button>
+                     <button type="button" class="btn btn-outline-primary seatbtnTwo">B11</button>
+                     <button type="button" class="btn btn-outline-primary seatbtnTwo">B12</button>
+                     <button type="button" class="btn btn-outline-primary seatbtnTwo">C11</button>
+                     <button type="button" class="btn btn-outline-primary seatbtnTwo">C12</button>
+                     <button type="button" class="btn btn-outline-secondary seatbtnTwo">D11</button>
+                     <button type="button" class="btn btn-outline-secondary seatbtnTwo">D12</button>
+                     <button type="button" class="btn btn-outline-secondary seatbtnTwo">E11</button>
+                     <button type="button" class="btn btn-outline-secondary seatbtnTwo">E12</button>
+                     <button type="button" class="btn btn-outline-secondary seatbtnTwo">F11</button>
+                     <button type="button" class="btn btn-outline-secondary seatbtnTwo">F12</button>
+                     <button type="button" class="btn btn-outline-info seatbtnTwo">G11</button>
+                     <button type="button" class="btn btn-outline-info seatbtnTwo">G12</button>
+                     <button type="button" class="btn btn-outline-info seatbtnTwo">H11</button>
+                     <button type="button" class="btn btn-outline-info seatbtnTwo">H12</button>
+                     <button type="button" class="btn btn-outline-info seatbtnTwo">I11</button>
+                     <button type="button" class="btn btn-outline-info seatbtnTwo">I12</button>
+                     <button type="button" class="btn btn-outline-success vvip">J6</button>
+                    </div>
+                     
+                    
+
+                </div>
+            </div>
+          </div>
+          
+    
+        
+       
+
+
+</body>
+
+<script src="BookSeatForTheNun.js"></script>
+
+</html>

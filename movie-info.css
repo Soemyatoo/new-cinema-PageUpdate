@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    font-family: "Poppins", serif;
+    padding: 0;
+  }
+  /*Header*/
+  .navbar{
+    display: flex;
+      position: fixed;
+      z-index: 100;
+      border-bottom: 1px solid lightgray;
+      justify-content: space-between;
+      background-color: #f9f4f4;
+      top: 0;
+      left: 0;
+      right: 0;
+      
+  }
+  .adjust{
+    color: #898888;  
+     text-decoration: none;
+     margin: 0px 20px;
+  }
+  .login-btn{
+      margin-right: 30px;
+      border-radius: 0px;
+      padding: 6px;
+      font-size: 14px;
+      border: 2px solid #EDEDED;
+  
+  }
+  .film-flexIcon{
+    margin-left: 44px;
+  }
+  .adjust:hover{
+    opacity: 0.7;
+    border-bottom:3px solid black ;
+    border-radius: 2.4px;
+  }
+  /*Body*/
+  
+  .movie-info-Container{
+    margin-top: 10%;
+    margin-bottom: 4%;
+  }
+  .cut-Info{
+    height: 25rem;
+    width: 40rem;
+  }
+  a{
+    text-decoration: none;
+  }
+  .movie-info-Container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .info-Container{
+    color: white;
+      padding: 22px;
+      border-radius: 22px;
+  }
+  .adjust-width{
+    width: 634px;
+  }
+  .movie-INFO{
+    margin: 14px 10px;
+    font-size: 13px;
+    color: #e4e1e1;
+  }
+  .director{
+    
+    font-size: 15px;
+    
+  }
+  .cont-feel{
+    font-size: 10px;
+  }
+  .adjust-cardINFO{
+    background: red;
+    margin-top: 4%;
+    color: white;
+    height: 268px;
+    box-shadow: 1px 3px 5px 6px rgba(0.15, 0.15, 0.15, 0.15);
+    border-radius: 22px;
+  }
+  .changeStyle-Title{
+     font-size:25px ;
+     font-weight: bold;
+     font-family: fangsong;
+  }
+  .cc{
+    
+      font-size: 13px;
+  }
+  .center{
+    text-align: center;
+  }
+  .One{
+    font-size: 14px;
+  }
+  .Movie-Div-Container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .time-LineCon{
+    font-size: 13px;
+  }
+  /*Cinemas List*/
+  .cinema-card-gird{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .headerOfCinemas{
+    font-size: 23px;
+    user-select: none;
+    font-weight: 500;
+    margin-bottom: 28px;
+    margin-left: 67px;
+  }
+  
+  .cinemasOfContainer{
+    margin-left: 67px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .cinemasOfInfo{
+    margin-top: 44px;
+  }
+  .cinemaofTitle{
+    margin-left: 10px;
+  }
+  .leftRightContainer{
+    background-color: #e9e8e8;
+    padding: 16px;
+    border-radius: 12px;
+    width: 45%;
+    box-shadow: 1px 1px 5px 3px rgba(0.15,0.15,0.15,0.15);
+    height: 160px;
+    display: flex;
+    align-items: center;
+  }
+  .website-name{
+    line-height: 27px;
+  }
+  .cinema-Image{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 15px;
+    vertical-align: middle;
+  }
+  .cinemaImageContainer{
+    margin: 0px 10px;
+  }
+  .bookBtn{
+    border-radius: 34px;
+    width: 97px;
+  }
+  .bookBtnContainer{
+    margin-top: 7px;
+  }
+  .bookBtnContainer{
+    margin-left: 18rem;
+    margin-bottom: 1rem;
+  }

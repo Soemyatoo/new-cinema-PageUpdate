@@ -1,0 +1,454 @@
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  height: 100vh;
+  
+  
+}
+/*Header*/
+
+ .navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+ }
+ .nextNavBar-Container{
+  display: flex;
+  position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  padding: 12px;
+  background-color: #444444;
+  justify-content: space-around;
+  
+ }
+ .flimFlex-img{
+   width: 4.5rem;
+ }
+ .register-img{
+  border-radius: 38px;
+  width: 2.5rem;
+ }
+.login-user{
+  border-radius: 38px;
+  width: 3.7rem;
+}
+.aTag{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.home-icon{
+  width: 2.1rem;
+  margin-left: 5rem;
+  vertical-align: middle;
+}
+.login-span{
+  margin-left: -10px;
+}
+.register-span{
+  margin-left: 2px;
+}
+.second-Tag{
+    margin-left: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+.pTag{
+  width: 26rem;
+  margin: 8px 0px;
+    font-size: 10px;
+}
+
+
+
+/* image */
+
+
+.slider{
+  width: 800px;
+  height: 500px;
+  margin-left: 23rem;
+  margin-top: 10%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+  
+}
+.slides input {
+  display:none; 
+}
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+.slide img{
+  width: 800px;
+ height: 500px;
+}
+/* css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn{
+  border: 2px solid #d8e0e0;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+.manual-btn:hover{
+  background: #40D3DC;
+}
+#radio1:checked ~ .first{
+  margin-left:0 ;
+}
+#radio2:checked ~ .first{
+  margin-left:-20% ;
+}
+#radio3:checked ~ .first{
+  margin-left:-40% ;
+}
+#radio4:checked ~ .first{
+  margin-left:-60% ;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .autobtn1{
+  background: #616262;
+}
+#radio2:checked ~ .navigation-auto .autobtn2{
+  background: #616262;
+}
+
+#radio3:checked ~ .navigation-auto .autobtn3{
+  background: #616262;
+}
+
+#radio4:checked ~ .navigation-auto .autobtn4{
+  background: #616262;
+}
+
+
+.navbar-ContainerMother{
+  position: fixed;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+z-index: 100;
+}   
+
+.btn-Container{
+  display: flex;
+  margin-top: 2%;
+  margin-left: 21rem;
+}
+.choose-btn{
+  border: 1px solid rgba(128,128,128,0.2);
+  padding: 2px;
+  width: 90px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 3px;
+}
+.movie-btn{
+  background-color: #CB4931;
+  color: white;
+  
+}
+.top10-btn{
+
+}
+.upcoming-btn{
+
+}
+.isOpened{
+  background-color: #CB4931;
+  color: white;
+}
+.removebgColor{
+  background-color: white;
+  color: black;
+}
+
+
+.newmovieweek-bgColor{
+  display: flex;
+  justify-content: space-around;
+  background-color:#CB4931 ;
+  color: white;
+  align-items: center;
+  padding: 10px;
+}
+.menu-iconOne{
+  width: 3.5rem;
+  margin-left: -29px;
+}
+.menu-iconTwo{
+  height: 2.2rem;
+}
+.leftOne{
+  margin-left: 3.8rem;
+}
+.cardContainer{
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+.motherOfMovie-card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  align-items: center;
+}
+.aQuietPlace-card{
+  height: 93%;
+  width: 13rem;
+  box-shadow: 0px 0px 5px 7px rgba(0.15, 0.15, 0.15,0.15);
+}
+.ratingStar{
+  width: 4rem;
+}
+.outlineTag{
+  border-radius: 10px;
+    width: 92px;
+    color: black;
+    padding: 2.5px;
+  border: 3px solid #FA015F;
+}
+.btnTag{
+  border-radius: 10px;
+  width: 92px;
+  color: white;
+  background-color:#FA015F ;
+  padding: 3px;
+border: none;
+}
+.spTag{
+  margin-right: 3rem;
+  font-size: 13px;
+}
+.textTag{
+  font-size: 13px;
+}
+.adu{
+  margin-left: -27px;
+}
+.aduTwo{
+  margin-left: -8px;
+}
+.aduThree{
+  margin-left: -43px;
+}
+.aduFour{
+  margin-left: -33px;
+}
+.info-Movie{
+  margin-left: 1.3rem;
+}
+
+.bot-btn{
+  margin-top: 0.6rem;
+}
+.iconTag{
+  height: 2rem;
+}
+.shareTag{
+  margin-right: 20px;
+}
+
+.footer-Div{
+  background-color: #F0F0F0;
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+.coming-Cls{
+  font-weight: 600;
+}
+.movie-Cls{
+  color: #999999;
+}
+.arrow-img{
+  height: 30px;
+}
+.movieCardTag{
+  display: flex;
+  justify-content: center;
+}
+.OneMovie{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+.TwoMovie{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.threeMovie{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+.fourMovie{
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+}
+.fiveMovie{
+  background-color: #40D3DC;
+  width: 100px;
+  height: 100px;
+}
+.sixMovie{
+  background-color: #a2424b;
+  width: 100px;
+  height: 100px;
+}
+.footer-ClassContainer{
+  position: relative;
+}
+.footer-Class{
+  background-color: #161616;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+/*Upcoming-Card*/
+.upcoming-underline{
+  background-color: #a2424b;
+    width: 57px;
+    margin-top: 1px;
+    border-radius: 10px;
+    margin-left: 27px;
+    height: 4px;
+    padding: 1.2px;
+}
+.upcoming-innerContainer{
+  display: flex;
+  justify-content: center;
+}
+.pTag-upcoming{
+  margin: 0;
+  
+  font-size: 23px;
+  font-weight: bold;
+  padding: 0;
+}
+.Upcoming-pTag-Container{
+  padding: 3px;
+}
+.upcoming-Card-Container{
+  display: grid;
+  row-gap: 20px;
+  padding: 25px;
+  margin-left: 8%;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.fnt-colorTag{
+  color: #898888;
+}
+.adjust-card{
+  height: 21rem;
+}
+.upcoming-Color-change{
+  background-color: #ECEDEF;
+  padding: 24px;
+}
+.fridayClassName{
+  position: relative;
+}
+
+.sub-myanmar{
+  position: absolute;
+  background-color: black;
+  bottom: 81px;
+  padding: 6px;
+  width: 100%;
+  color: white;
+  opacity: 0.7;
+  left: 0;
+
+}
+.cardTag{
+  animation: appear  linear;
+  box-shadow: 0px 0px 5px 2px rgba(0.15, 0.15, 0.15, 0.15);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40% ;
+  user-select: none;
+}
+@keyframes appear {
+  from{
+     opacity: 0;
+     transform: translateX(-100px);
+    
+  }
+  to{
+     opacity: 1;
+     
+    transform: translateX(0px);
+  }
+}
+@keyframes change {
+  0% {
+   background-image: url('Image/photo_2025-02-06_20-02-23.jpg')
+  }
+  20% {
+   background-image: url(Image/photo_2025-02-06_20-10-26.jpg);
+  }
+  40% {
+   background-image: url( Image/grab.jpg);
+  }
+  60% {
+   background-image: url(Image/foodpanada2.jpg);
+  }
+  80% {
+   background-image: url(Image/dji.jpg);
+  }
+  100% {
+   background-image: url(Image/health.jpg);
+  }
+}

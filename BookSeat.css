@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    font-family: "Poppins", serif;
+    padding: 0;
+  }
+  /*Header*/
+  .navbar{
+    display: flex;
+      position: fixed;
+      z-index: 100;
+      border-bottom: 1px solid lightgray;
+      justify-content: space-between;
+      background-color: #f9f4f4;
+      top: 0;
+      left: 0;
+      right: 0;
+      
+  }
+  .adjust{
+    color: #898888;  
+     text-decoration: none;
+     margin: 0px 20px;
+  }
+  .login-btn{
+      margin-right: 30px;
+      border-radius: 0px;
+      padding: 6px;
+      font-size: 14px;
+      border: 2px solid #EDEDED;
+  
+  }
+  .film-flexIcon{
+    margin-left: 44px;
+  }
+  .adjust:hover{
+    opacity: 0.7;
+    border-bottom:3px solid black ;
+    border-radius: 2.4px;
+  }
+  
+  /*BodyCard*/
+  
+  .movieCard{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .movieCardImage{
+    width: 35rem;
+    border-radius: 15px;
+    height: 300px;
+  }
+  .left{
+    background-color: #E9E8E8;
+    padding: 27px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px 3px rgba(0.15,0.15,0.15,0.15);
+    margin-left: 8rem;
+    width: 300px;
+  }
+  .btn-info{
+    color: white;
+    font-size: 10px;
+      padding: 1px 4px;
+  }
+  .cinemaTag{
+    font-size: 12px;
+    opacity: 0.8;
+    color: #494949;
+  }
+  .movieName{
+    line-height: 20px;
+    color: #8b8989;
+    font-weight: 400;
+    font-size: 29px;
+  }
+  .btn-info-Container{
+     margin: 6px 0px;
+  }
+  .pickUpDate{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    user-select: none;
+  }
+  .button-group{
+    display: flex;
+    justify-content: center;
+  }
+  .date-btn {
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #ccc;
+    width: 48px;
+    margin: 14px;
+    user-select: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .date-btn {
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #ccc;
+   user-select: none;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .date-btn.active {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  .showTimeContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    user-select: none;
+  }
+  .showTimeBtContainer{
+    display: flex;
+    justify-content: center;
+  }
+  span{
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .btn-primary{
+    margin: 20px 15px;
+    width: 98px;
+    user-select: none;
+    padding: 6px;
+    background-color: #eaeaea;
+    border: none;
+    color: black;
+    border-radius: 24px;
+  }
+  .seatText{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .seatChoose{
+    display: flex;
+user-select: none;
+    justify-content: center;
+  
+  }
+  .seatbtn{
+    height: 1.2rem;
+      border-radius: 5px;
+    margin: 0px 52px;
+    margin-bottom: 10px;
+  }
+  .seatPrice{
+    
+    font-size: 12px;
+    justify-content: center;
+  }
+  .ThoursandSeat{
+    display: flex;
+  }
+  .mgBtn{
+    margin-bottom: 4rem;
+  }
+  
+  
+  /*secondDiv*/
+  
+  .colContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .firstCol{
+  
+  }
+  .secondCol{
+ margin: 0px 25px;
+    
+  }
+  .thirdCol{
+    margin-left: 10px;
+  }
+  
+  .firstColContainer{
+    width: 84px;
+    margin-right: 20px;
+  }
+  .vvip{
+    width: 82px;
+    border-radius: 3px;
+    height: 1.5rem;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .vvip.active{
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  .seatbtnTwo{
+      width: 39px;
+      border-radius: 5px;
+      font-size: 7px;
+      margin-bottom: 5px;
+  }
+  .seatbtnTwo.active{
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  .secondColContainer{
+    display: flex;
+  }
+  .innerBtn{
+    width: 90px;
+  }
+  .innerBtnTwo{
+    width: 85px;
+    margin: 0px 7px;
+  }
+  .innerBtnThree{
+    width: 85px;
+    margin: 0px 7px;
+  }
+  .innerBtnFour{
+    width: 90px;
+    margin-left: 5px;
+  }
+  .isOpened{
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }

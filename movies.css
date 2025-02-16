@@ -1,0 +1,235 @@
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  background-color: #ECEDEF;
+}
+
+
+/*Header*/
+.navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+ }
+ .navbar-ContainerMother{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  right: 0;
+  z-index: 100;
+ }
+ .nextNavBar-Container{
+  display: flex;
+  
+  padding: 12px;
+  background-color: #444444;
+  justify-content: space-around;
+  
+ }
+ .flimFlex-img{
+   width: 4.5rem;
+ }
+ .register-img{
+  border-radius: 38px;
+  width: 2.5rem;
+ }
+.login-user{
+  border-radius: 38px;
+  width: 3.7rem;
+}
+.aTag{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.home-icon{
+  width: 2.1rem;
+  margin-left: 5rem;
+  vertical-align: middle;
+}
+.login-span{
+  margin-left: -10px;
+}
+.register-span{
+  margin-left: 2px;
+}
+.second-Tag{
+    margin-left: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+.pTag{
+  width: 26rem;
+  margin: 8px 0px;
+    font-size: 10px;
+}
+
+
+/*For Movie*/
+.red{
+  
+  background-image: url('Image/the\ num-moviesFile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 32rem;
+  width: 30rem;
+  background-color: red;
+}
+.yellow{
+  width:30rem;
+  background-image: url('Image/the\ meg-movieFile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 32rem;
+  background-color: yellow;
+}
+.black{
+  width:30rem;
+  background-image: url('Image/slithere-moviesFile.jpg');
+  height: 32rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+.green{
+  background-image: url('Image/unLOcked-moviesFile.jpg');
+  width:30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 32rem;
+  background-color: green;
+}
+
+.containerTag{
+  display: flex;
+  margin-top: 8.4%;
+}
+.newTag{
+  display: flex;
+      margin-top: 54%;
+      justify-content: center;
+      margin-bottom: 3%;
+}
+.newClass{
+  color: white;
+  background-color: #121212;
+  padding: 2px;
+  width: 63px;
+  text-align: center;
+  border-radius: 3px;
+
+}
+.spanTag{
+  text-align: center;
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+}
+.inner-SpanTag{
+  width: 18rem;
+}
+.innerSpan{
+  color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+
+/*Body.body-container-gird{
+  display: grid;
+  margin-top: 22px;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+}
+.pTag{
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.body-container-gird{
+  
+  
+display: grid
+;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 25px;
+margin-left: 8%;
+}
+.adjust-card{
+  height: 21rem;
+}
+.chg-title{
+  font-weight: bold;
+  font-size: 20px;
+}
+.fnt-colorTag{
+  color: #898888;
+}
+
+.book-btn{
+  position: absolute;
+  right: 9px;
+  bottom: 8px;
+}
+.card{
+  width: 18rem;
+  height: 31rem;
+  height: 29rem;
+  position: relative;
+}
+@keyframes appear {
+  from{
+     opacity: 0;
+     scale: 0.5s;
+     
+  }
+  to{
+     opacity: 1;
+     
+    scale: 0.5s;
+  }
+}
+.card{
+  animation: appear  linear;
+  box-shadow: 0px 0px 5px 2px rgba(0.15, 0.15, 0.15, 0.15);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40% ;
+  user-select: none;
+}
+.noShowingTag{
+  background-color: red;
+}
+.upcoming-innerContainer {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 8%;
+  justify-content: flex-start;
+}
+.upcoming-underline{
+  background-color: #d63c3d;
+    width: 80px;
+    margin-top: 1px;
+    border-radius: 10px;
+    margin-left: 27px;
+    height: 5px;
+    padding: 1.2px;
+}
+.pTag-upcoming{
+  margin: 0;
+  font-size: 23px;
+  user-select: none;
+  font-weight:600;
+  padding: 0;
+}
+*/
+
